@@ -1312,7 +1312,7 @@ rules:
     group: supply-chain-scm-weak-configuration
     name: cicd-scm-gh-app-with-elevated-permissions
     pretty_name: CI/CD - Elevated GitHub App Permissions
-    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/#todo'
+    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/cicd-scm-gh-app-with-elevated-permissions.html'
   cicd-scm-gh-org-has-outside-collaborators:
     categories:
     - ALL
@@ -1324,7 +1324,7 @@ rules:
     group: supply-chain-scm-weak-configuration
     name: cicd-scm-gh-org-has-outside-collaborators
     pretty_name: CI/CD - GitHub Organization has Outside Collaborators
-    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/#todo'
+    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/cicd-scm-gh-org-has-outside-collaborators.html'
   cicd-scm-gh-org-high-default-member-permissions:
     categories:
     - ALL
@@ -1337,8 +1337,8 @@ rules:
     group: supply-chain-scm-weak-configuration
     name: cicd-scm-gh-org-high-default-member-permissions
     pretty_name: CI/CD - Privileged Default Member Permissions
-    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/#todo'
-  cicd-scm-gh-org-insecure-webook:
+    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/cicd-scm-gh-org-high-default-member-permissions.html'
+  cicd-scm-gh-org-insecure-webhook:
     categories:
     - ALL
     - supply-chain
@@ -1348,9 +1348,9 @@ rules:
     - boost-hardened
     description: Checks for GitHub organizations with insecure webhooks.
     group: supply-chain-scm-weak-configuration
-    name: cicd-scm-gh-org-insecure-webook
+    name: cicd-scm-gh-org-insecure-webhook
     pretty_name: CI/CD - Insecure GitHub Webhooks
-    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/#todo'
+    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/cicd-scm-gh-org-insecure-webhook.html'
   cicd-unpinned-dependencies:
     categories:
     - ALL
