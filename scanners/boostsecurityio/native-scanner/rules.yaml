@@ -1031,6 +1031,18 @@ rules:
     name: cicd-binary-artifacts-stored-in-scm
     pretty_name: CI/CD - Binary artifacts stored in SCM
     ref: '{BOOSTSEC_DOC_BASE_URL}/rules/cicd-binary-artifacts-stored-in-scm.html'
+  cicd-aws-github-oidc-sub:
+    categories:
+    - ALL
+    - supply-chain
+    - supply-chain-cicd-weak-configuration
+    - cloud-insecure-iam
+    - boost-hardened
+    description: Checks for IAM policies with lax validation of GitHub's OIDC subject claim.
+    group: supply-chain-cicd-weak-configuration
+    name: cicd-aws-github-oidc-sub
+    pretty_name: CI/CD - Weak GitHub OIDC Claim Verification
+    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/cicd-aws-github-oidc-sub.html'
   cicd-branch-protection-absent:
     categories:
     - ALL
