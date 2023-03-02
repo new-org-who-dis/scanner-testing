@@ -1218,7 +1218,7 @@ rules:
     group: supply-chain-cicd-weak-configuration
     name: cicd-circleci-unversioned-orb
     pretty_name: CI/CD - CircleCI Unversionned Orb
-    ref: '{BOOSTSEC_DOC_BASE_URL}/#cicd-circleci-unversioned-orb.html'
+    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/cicd-circleci-unversioned-orb.html'
   cicd-circleci-shell-injection:
     categories:
     - ALL
@@ -1230,19 +1230,7 @@ rules:
     group: supply-chain-cicd-vulnerable-pipeline
     name: cicd-circleci-shell-injection
     pretty_name: CI/CD - CircleCI Shell Injection
-    ref: '{BOOSTSEC_DOC_BASE_URL}/#cicd-circleci-shell-injection.html'
-  cicd-circleci-bash-env-injection:
-    categories:
-    - ALL
-    - supply-chain
-    - supply-chain-cicd-vulnerable-pipeline
-    - boost-baseline
-    - boost-hardened
-    description: Checks for CircleCI workflows where unescaped output is added to $BASH_ENV.
-    group: supply-chain-cicd-vulnerable-pipeline
-    name: cicd-circleci-bash-env-injection
-    pretty_name: CI/CD - CircleCI $BASH_ENV Injection
-    ref: '{BOOSTSEC_DOC_BASE_URL}/#cicd-circleci-bash-env-injection.html'
+    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/cicd-circleci-shell-injection.html'
   cicd-gha-can-create-and-approve-pull-requests:
     categories:
     - ALL
@@ -1333,7 +1321,7 @@ rules:
     group: supply-chain-cicd-weak-configuration
     name: cicd-gha-unsecure-commands
     pretty_name: CI/CD - GitHub Action Unsecure Commands
-    ref: '{BOOSTSEC_DOC_BASE_URL}/#cicd-gha-unsecure-commands.html'
+    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/cicd-gha-unsecure-commands.html'
   cicd-gha-curl-eval:
     categories:
     - ALL
@@ -1345,7 +1333,7 @@ rules:
     group: supply-chain-missing-artifact-integrity-verification
     name: cicd-gha-curl-eval
     pretty_name: CI/CD - GitHub Action evaluates curl's output
-    ref: '{BOOSTSEC_DOC_BASE_URL}/#cicd-gha-curl-eval.html'
+    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/cicd-gha-curl-eval.html'
   cicd-gha-script-injection:
     categories:
     - ALL
@@ -1357,7 +1345,7 @@ rules:
     group: supply-chain-cicd-vulnerable-pipeline
     name: cicd-gha-script-injection
     pretty_name: CI/CD - GitHub Script Injection
-    ref: '{BOOSTSEC_DOC_BASE_URL}/#cicd-gha-script-injection.html'
+    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/cicd-gha-script-injection.html'
   cicd-gha-write-all-permissions:
     categories:
     - ALL
@@ -1368,7 +1356,7 @@ rules:
     group: supply-chain-cicd-weak-configuration
     name: cicd-gha-write-all-permissions
     pretty_name: CI/CD - GitHub Action uses write-all permissions
-    ref: '{BOOSTSEC_DOC_BASE_URL}/#cicd-gha-write-all-permissions.html'
+    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/cicd-gha-write-all-permissions.html'
   cicd-gha-workflow-dispatch-inputs:
     categories:
     - ALL
@@ -1380,7 +1368,7 @@ rules:
     group: supply-chain-cicd-weak-configuration
     name: cicd-gha-workflow-dispatch-inputs
     pretty_name: CI/CD - GitHub Action uses inputs
-    ref: '{BOOSTSEC_DOC_BASE_URL}/#cicd-gha-workflow-dispatch-inputs.html'
+    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/cicd-gha-workflow-dispatch-inputs.html'
   cicd-gha-risky-workflow-run-checkout:
     categories:
     - ALL
@@ -1393,7 +1381,7 @@ rules:
     group: supply-chain-cicd-vulnerable-pipeline
     name: cicd-gha-risky-workflow-run-checkout
     pretty_name: CI/CD - GitHub Action risky workflow_run usgae
-    ref: '{BOOSTSEC_DOC_BASE_URL}/#cicd-gha-risky-workflow-run-checkout.html'
+    ref: '{BOOSTSEC_DOC_BASE_URL}/rules/cicd-gha-risky-workflow-run-checkout.html'
   cicd-sca-scanning-absent:
     categories:
     - ALL
