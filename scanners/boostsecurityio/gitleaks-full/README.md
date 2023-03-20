@@ -1,4 +1,4 @@
-# boostsecurityio/gitleaks
+# boostsecurityio/gitleaks-full
 
 ## Environment variables
 
