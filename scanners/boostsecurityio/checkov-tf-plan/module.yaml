@@ -18,5 +18,5 @@ steps:
       format: sarif
       post-processor:
         docker:
-          image: public.ecr.aws/boostsecurityio/boost-scanner-checkov:52dcef8@sha256:98aef91c93ac2400fca88beadd0ba43d1f9be15e82e6a641f8e9f4d2ea13f050
+          image: public.ecr.aws/boostsecurityio/boost-scanner-checkov:eb059cf@sha256:a7aa06c72409f303c4fafc9d5d5003043717518ebb7638b267721d301cef1aa3
           command: process
